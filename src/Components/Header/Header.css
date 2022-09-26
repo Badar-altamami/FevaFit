@@ -1,0 +1,78 @@
+.nav-link-font {
+    font-weight: 500 !important;
+    color: #1F0F38 !important;
+}
+
+.dropdown-toggle {
+    position: relative;
+    font-weight: 500 !important;
+    color: #1F0F38 !important;
+}
+
+.dropdown-toggle::after {
+    display: inline-block !important;
+    margin-left: 0.5em !important;
+    vertical-align: 0.255em;
+    content: "";
+    border: solid black !important;
+    border-width: 0 1.5px 1.5px 0 !important;
+    padding: 3px !important;
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+}
+
+.dropdown-toggle::before {
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: url(../../assets/globe.svg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    margin-left: -10px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -100px !important;
+}
+
+.feva-btn {
+    color: #6733B5;
+    font-weight: 500;
+    padding: 10px 35px;
+    margin: 5px 0;
+    background: transparent;
+    border: 1px solid #6733B5;
+    border-radius: 50px;
+}
+
+
+
+.nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: '';
+    background: #6733B5;
+    border-radius: 50px;
+    display: block;
+    height: 2.5px;
+    position: absolute;
+    width: 20px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.navbar-nav .nav-link.active {
+    color: #6733B5 !important;
+}
