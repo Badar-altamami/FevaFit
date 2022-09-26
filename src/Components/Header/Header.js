@@ -6,8 +6,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './Header.css'
 import logo from '../../assets/logo.svg'
+import UseContent from '../../Content/UseContent';
 
-const Header = () => {
+const Header = ({ setContent }) => {
+    const { eng, arb } = UseContent();
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
@@ -26,8 +28,8 @@ const Header = () => {
                         <Nav className="ms-auto">
                             <Nav.Link className='me-3'>
                                 <NavDropdown title="Lang" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Eng</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.1">Ar</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1" onClick={() => setContent(eng)}>Eng</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1" onClick={() => setContent(arb)}>Ar</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav.Link>
                             <button className='feva-btn'>Get Started</button>
