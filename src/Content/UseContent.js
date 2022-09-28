@@ -4,12 +4,12 @@ import cardImg3 from '../assets/card3Img.png'
 
 const UseContent = () => {
     let eng = {
-        dir: 'rtl',
+        dir: 'ltr',
         home: {
             MainTitle: 'I BELIVE I ACHIEVE',
-            SubTitle1: 'The best way to improve your body?  Build the mind first',
+            SubTitle1: 'The best way to improve your body?',
             SubTitle2: 'Build the mind first',
-            Des: 'Feva Fit is a mind-body approach to fitness that works. We help you change your perception of what it means to be fit. And by doing so, we can transform both your mind and body.',
+            des: 'Feva Fit is a mind-body approach to fitness that works. We help you change your perception of what it means to be fit. And by doing so, we can transform both your mind and body.',
             ActionBtn1: 'TRY OUR PROTOTYPE',
             ActionBtn2: 'LEARN MORE',
         },
@@ -84,12 +84,12 @@ const UseContent = () => {
     }
 
     let arb = {
-        dir: 'ltr',
+        dir: 'rtl',
         home: {
             MainTitle: 'I BELIVE I ACHIEVE',
             SubTitle1: 'أفضل طريقة لتحسين جسمك؟',
             SubTitle2: ' ابن قناعاتك الذاتية أولًا!',
-            Des: 'ارتقِ بصحتك ولياقتك إلى مستوى آخر من خلال تغيير طريقة تفكيرك. يبدأ الشعور بالرضا الجسدي في العقل .مع الممارسات النفسية لـ Feva Fit ، تكتسب القوة العقلية والقدرة على تغيير مزاجك وجسمك في نفس الوقت.',
+            des: 'ارتقِ بصحتك ولياقتك إلى مستوى آخر من خلال تغيير طريقة تفكيرك. يبدأ الشعور بالرضا الجسدي في العقل .مع الممارسات النفسية لـ Feva Fit ، تكتسب القوة العقلية والقدرة على تغيير مزاجك وجسمك في نفس الوقت.',
             ActionBtn1: 'جرب نموذجنا الأولى!',
             ActionBtn2: 'تعلم المزيد',
         },
@@ -99,20 +99,20 @@ const UseContent = () => {
                 {
                     num: '01',
                     que: 'هل سبق لك الانضمام إلى الصالة الرياضي ولكنك توقفت عن الذهاب بعد بضعة أسابيع؟',
-                    btn1: 'Yes',
-                    btn2: 'No',
+                    btn1: 'نعم',
+                    btn2: 'لا',
                 },
                 {
                     num: '02',
                     que: 'هل سبق لك أن حددت هدفًا متعلقًا باللياقة البدنية،أو اشتريت ملابس رياضية أو كنت متحمسًا للحصول على اللياقة البدنية؟',
-                    btn1: 'Yes',
-                    btn2: 'No',
+                    btn1: 'نعم',
+                    btn2: 'لا',
                 },
                 {
                     num: '03',
                     que: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
                     btn1: 'نعم',
-                    btn2: 'No',
+                    btn2: 'لا',
                 }
             ],
             title2: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
