@@ -60,21 +60,19 @@ const UseContent = () => {
                     title: '3 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg1,
-                    popovr: 'Feva Fit is a high intensity interval training workout that will transform your physique in no time.Our video workouts are short, intensive and effective.'
                 },
                 {
                     title: '3 Weeks Transformation Program',
                     des: '30 daily workout videos',
                     img: cardImg2,
-                    popovr: 'Feva Fit is a high intensity interval training workout that will transform your physique in no time.Our video workouts are short, intensive and effective.'
                 },
                 {
                     title: '12 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg3,
-                    popovr: 'Feva Fit is a high intensity interval training workout that will transform your physique in no time.Our video workouts are short, intensive and effective.'
                 }
-            ]
+            ],
+            popovr: 'Feva Fit is a high intensity interval training workout that will transform your physique in no time. Our video workouts are short, intensive and effective.'
         },
         download: {
             subtitle: 'Mind before matter',
@@ -140,21 +138,19 @@ const UseContent = () => {
                     title: '3 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg1,
-                    popovr: 'اخسر الوزن الزائد وابني جسمًا قويًا وصحيًا في أقل من 30 دقيقة يوميًا. تم تصميم هذه التدريبات القصيرة والفعالة على أساس أحدث تقنيات التدريب البدني، وذلك لتحسين اللياقة البدنية الخاصة بك في اسرع وقت!'
                 },
                 {
                     title: '3 أسابيع برنامج التحول',
                     des: '30 daily workout videos',
                     img: cardImg2,
-                    popovr: 'اخسر الوزن الزائد وابني جسمًا قويًا وصحيًا في أقل من 30 دقيقة يوميًا. تم تصميم هذه التدريبات القصيرة والفعالة على أساس أحدث تقنيات التدريب البدني، وذلك لتحسين اللياقة البدنية الخاصة بك في اسرع وقت!'
                 },
                 {
                     title: '12 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg3,
-                    popovr: 'اخسر الوزن الزائد وابني جسمًا قويًا وصحيًا في أقل من 30 دقيقة يوميًا. تم تصميم هذه التدريبات القصيرة والفعالة على أساس أحدث تقنيات التدريب البدني، وذلك لتحسين اللياقة البدنية الخاصة بك في اسرع وقت!'
                 }
-            ]
+            ],
+            popovr: 'اخسر الوزن الزائد وابني جسمًا قويًا وصحيًا في أقل من 30 دقيقة يوميًا. تم تصميم هذه التدريبات القصيرة والفعالة على أساس أحدث تقنيات التدريب البدني، وذلك لتحسين اللياقة البدنية الخاصة بك في اسرع وقت!'
         },
         download: {
             subtitle: 'العقل قبل الجسد',

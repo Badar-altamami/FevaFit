@@ -1,0 +1,117 @@
+.program {
+    margin-top: 20rem;
+}
+
+.program__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #1F0F38;
+    font-size: 50px;
+}
+
+.swiper {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-pagination {
+    display: block !important;
+    margin-top: 4rem !important;
+}
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.slider__container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.swiper-slide-active {
+    transform: scale(1.1) !important;
+    transition: 0.3s;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    opacity: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 25% !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+
+.swiper-button-next {
+    background-image: url(../../assets/next.svg);
+}
+
+.swiper-button-prev {
+
+    background-image: url(../../assets/prev.svg);
+}
+
+.slider__title {
+    padding-top: 11rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.slider__des {
+    color: #DADADA;
+    font-family: 'Inter', sans-serif;
+}
+
+.popover__content {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 10px);
+    background-color: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.179);
+    width: 60%;
+    margin: auto;
+    margin-top: -8rem;
+    border-radius: 10px;
+    border: 1px solid #bfbfbf2e;
+}
+
+.popover__message {
+    color: #1F0F38;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.swiper-pagination-bullet-active {
+    transform: scale(2.1) !important;
+    transition: 0.3s;
+    background-color: #6733B5 !important;
+}
