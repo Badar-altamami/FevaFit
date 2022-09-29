@@ -18,7 +18,7 @@ const Survey = ({ content }) => {
         <div className='survey container py-5 mt-5'>
             <div dir={content.dir} className='survey__container pt-5 mt-4'>
                 <div className='survery__header mx-5 pt-5'>
-                    <div className='text-start'>
+                    <div className={content.dir === 'rtl' ? 'text-end' : 'text-start'}>
                         <div className='survery__logo'>
                             <img dir={content.dir} className='img-fluid' src={RightSurveryLogo} alt="" />
                         </div>
@@ -26,7 +26,7 @@ const Survey = ({ content }) => {
                         <h2 className='feva'>Feva Fit</h2>
                     </div>
                     <div>
-                        <div>
+                        <div className='mt-5'>
                             <h1 className="survery__repeat">SURVEY</h1>
                             <h1 className="survery__repeat">SURVEY</h1>
                             <h1 className="survery__repeat">SURVEY</h1>

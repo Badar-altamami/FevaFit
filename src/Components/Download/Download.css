@@ -1,4 +1,60 @@
-.download {
+#download {
     margin-top: 15rem;
     margin-bottom: 5rem;
+}
+
+.download_sub_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.56em;
+    -webkit-text-stroke: 1px#1F0F38;
+    color: #fff;
+}
+
+.download_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #1F0F38;
+}
+
+.download_des {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #1F0F38;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.download_logo {
+    position: absolute;
+    width: 275px !important;
+    height: 100px;
+    bottom: 0;
+    right: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .download_sub_title {
+        font-size: 18px;
+    }
+
+    .download_title {
+        font-size: 24px;
+    }
+
+    .download_des {
+        font-size: 12px;
+    }
+
+    #download {
+        margin-top: 10rem;
+    }
+
+    .m_t-3 {
+        margin-top: 1rem;
+    }
 }

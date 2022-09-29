@@ -1,4 +1,4 @@
-.feature {
+#feature {
     margin-top: 20rem;
 }
 
@@ -54,4 +54,28 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #1F0F38;
+}
+
+@media only screen and (max-width: 768px) {
+    #feature {
+        margin-top: 5rem;
+    }
+
+    .feature_title {
+        font-size: 30px;
+    }
+
+    .cardTitle {
+        font-size: 18px;
+    }
+
+    .cardDes {
+        font-size: 14px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        height: 24rem !important;
+    }
 }

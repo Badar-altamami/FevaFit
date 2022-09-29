@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import Download from './Components/Download/Download';
 import Feature from './Components/Feature/Feature';
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Program from './Components/Program/Program';
 import Survey from './Components/Survey/Survey';
@@ -14,8 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header setContent={setContent} />
-      <Home content={content} />
+      <Home content={content} setContent={setContent} />
       <Survey content={content} />
       <Feature content={content} />
       <Program content={content} />

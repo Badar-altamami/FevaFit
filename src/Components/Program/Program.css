@@ -1,4 +1,4 @@
-.program {
+#programs {
     margin-top: 20rem;
 }
 
@@ -114,4 +114,40 @@
     transform: scale(2.1) !important;
     transition: 0.3s;
     background-color: #6733B5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #programs {
+        margin-top: 5rem;
+    }
+
+    .program__title {
+        font-size: 28px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 68% !important;
+        background-position: center;
+        height: 50px;
+        width: 50px;
+    }
+
+    .slider__title {
+        font-size: 18px;
+    }
+
+    .slider__des {
+        font-size: 14px;
+    }
+
+    .popover__content {
+        width: 90%;
+        margin-top: -7rem;
+    }
+
+    .popover__message {
+        font-size: 12px;
+        padding: 0 !important;
+    }
 }

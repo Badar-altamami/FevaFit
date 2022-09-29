@@ -85,3 +85,49 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .survey__title,
+    .feva {
+        font-size: 22px;
+    }
+
+    .survery__header {
+        flex-direction: column;
+    }
+
+    .quesBtn {
+        color: #1F0F38;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        padding: 10px 20px;
+        width: 5rem;
+        font-size: 14px;
+        background: transparent;
+        border: 1px solid #DADADA;
+        border-radius: 50px;
+        margin-top: 0 !important;
+    }
+
+    .ques__number {
+        font-size: 25px;
+    }
+
+    .survery__repeat {
+        font-size: 45px;
+        text-align: start;
+    }
+
+    .ques {
+        font-size: 16px;
+    }
+
+    .mt-5 {
+        margin-top: 0 !important;
+    }
+
+    .survery_title2 {
+        font-size: 18px;
+    }
+}

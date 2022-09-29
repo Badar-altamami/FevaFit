@@ -1,4 +1,4 @@
-.home {
+.home_wrapper {
     position: relative;
 }
 
@@ -55,7 +55,7 @@
     font-weight: 400;
     width: 14rem;
     padding: 10px 0;
-    margin: 5px 0;
+    margin: 10px 10px 0 0;
     background: #6733B5;
     border: 1px solid #6733B5;
     border-radius: 50px;
@@ -66,7 +66,7 @@
     font-weight: 500;
     width: 14rem;
     padding: 10px 0;
-    margin: 5px 0;
+    margin: 10px 0 0 10px;
     background: transparent;
     border: 1px solid #1F0F38;
     border-radius: 50px;
@@ -75,4 +75,47 @@
 .scroll {
     font-size: 14px;
     color: #1F0F38;
+}
+
+@media only screen and (max-width: 768px) {
+    .home__title {
+        font-size: 40px;
+    }
+
+    .dumbbel {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -1%;
+        left: 0%;
+        z-index: -999;
+    }
+
+    .sportWatch {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        right: 0%;
+        bottom: 44%;
+        z-index: -999;
+    }
+
+    .home__sub__title {
+        font-size: 15px;
+    }
+
+    .home__des {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .abtn__group {
+        flex-direction: column;
+    }
+
+    .abtn1,
+    .abtn2 {
+        margin: 10px 0;
+        font-size: 14px;
+    }
 }

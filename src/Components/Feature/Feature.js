@@ -13,7 +13,7 @@ const Feature = ({ content }) => {
 
     return (
         <>
-            <div className='feature'>
+            <div id='feature'>
                 <div dir={content.dir} className="feature_title_container mt-5 py-5">
                     <h1 className='feature_title'>{feature.title}</h1>
                     <img className='w-100 img-fluid featureImg' src={service} alt="" />

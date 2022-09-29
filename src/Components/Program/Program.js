@@ -16,7 +16,7 @@ const Program = ({ content }) => {
 
     return (
         <>
-            <div className='program'>
+            <div id='programs'>
                 <div dir={content.dir} className="feature_title_container mt-5 py-5">
                     <h1 className='program__title'>{programs.title}</h1>
                     <img className='w-100 img-fluid featureImg' src={fitness} alt="" />
@@ -56,11 +56,11 @@ const Program = ({ content }) => {
 
                         )
                     }
-                    <div class="popover__content">
-                        <p dir={content.dir} class="popover__message p-2">{programs.popovr}</p>
+                    <div className="popover__content">
+                        <p dir={content.dir} className="popover__message p-2">{programs.popovr}</p>
                     </div>
                 </Swiper>
-            </div>
+            </div >
         </>
     );
 };

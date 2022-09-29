@@ -76,3 +76,14 @@
 .navbar-nav .nav-link.active {
     color: #6733B5 !important;
 }
+
+.drpdown_img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown-toggle {
+        margin-left: 2.7rem;
+    }
+}
