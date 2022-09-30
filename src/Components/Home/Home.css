@@ -79,7 +79,7 @@
 
 @media only screen and (max-width: 768px) {
     .home__title {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .dumbbel {
@@ -101,7 +101,7 @@
     }
 
     .home__sub__title {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .home__des {
@@ -111,6 +111,8 @@
 
     .abtn__group {
         flex-direction: column;
+        width: 100% !important;
+        align-items: center;
     }
 
     .abtn1,

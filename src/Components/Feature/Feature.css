@@ -76,6 +76,6 @@
     .card1,
     .card2,
     .card3 {
-        height: 24rem !important;
+        height: auto !important;
     }
 }
