@@ -7,6 +7,9 @@ import Program from './Components/Program/Program';
 import Survey from './Components/Survey/Survey';
 import UseContent from './Content/UseContent';
 
+// import ReactGA from 'react-ga';
+// ReactGA.initialize('UA-244051109-1');
+
 function App() {
   const { eng } = UseContent();
   const [content, setContent] = useState(eng);

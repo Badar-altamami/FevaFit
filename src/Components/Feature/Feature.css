@@ -42,6 +42,7 @@
 .card2,
 .card3 {
     height: 28rem !important;
+    cursor: pointer;
 }
 
 .cardTitle {
@@ -55,6 +56,7 @@
     font-weight: 400;
     color: #1F0F38;
 }
+ 
 
 @media only screen and (max-width: 768px) {
     #feature {
@@ -62,7 +64,7 @@
     }
 
     .feature_title {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .cardTitle {

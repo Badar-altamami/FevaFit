@@ -31,8 +31,9 @@ const UseContent = () => {
                 {
                     num: '03',
                     que: 'What do you think prevented you from achieving your fullest fitness potential and goal?',
-                    btn1: 'Yes',
-                    btn2: 'No',
+                    btn1: null,
+                    btn2: null,
+                    
                 }
             ],
             title2: 'What do you think prevented you from achieving your fullest fitness potential and goal',
@@ -109,8 +110,9 @@ const UseContent = () => {
                 {
                     num: '03',
                     que: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
-                    btn1: 'نعم',
-                    btn2: 'لا',
+                    btn1: null,
+                    btn2: null,
+                    
                 }
             ],
             title2: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',

@@ -3,7 +3,7 @@ import dumbbell from '../../assets/dumbbell.svg'
 import sportsWatch from '../../assets/sportSmartwatch.svg'
 import homebanner from '../../assets/homeBanner.svg'
 import scrolldown from '../../assets/scrollDown.svg'
-
+import Nav from 'react-bootstrap/Nav';
 import './Home.css'
 import Header from '../Header/Header';
 
@@ -26,8 +26,10 @@ const Home = ({ content, setContent }) => {
                     </div>
                     <p dir={content.dir} className='home__des'>{home.des}</p>
                     <div className='w-50 h-auto mx-auto abtn__group pt-4'>
-                        <button className='abtn1'>{home.ActionBtn1}</button>
-                        <button className='abtn2'>{home.ActionBtn2}</button>
+                       <Nav.Link href="#download">
+                       <button className='abtn1'>{home.ActionBtn1}</button>
+                       </Nav.Link>  
+                        
                     </div>
                 </div>
                 <div className='pt-5'>

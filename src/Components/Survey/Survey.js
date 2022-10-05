@@ -4,7 +4,6 @@ import surveyLogo2 from '../../assets/surveyLogo2.svg'
 import line from '../../assets/Line.svg'
 import quesiton from '../../assets/question.png'
 import arrow from '../../assets/arrow.png'
-
 import './Survey.css'
 import { Col, Row } from 'react-bootstrap';
 
@@ -49,9 +48,15 @@ const Survey = ({ content }) => {
                                 </div>
                             </Col>
 
-                            <Col sm={12} md={4} className='text-center quesBtngroup ps-5'>
+                            <Col sm={12} md={4} className='text-center quesBtngroup ps-5'>                               {
+                                q.btn1===null?<></>:
                                 <button className={content.dir === 'rtl' ? 'quesBtn ms-4' : 'quesBtn me-4'}>{q.btn1}</button>
-                                <button className='quesBtn'>{q.btn2}</button>
+
+                            }
+                            {
+                              q.btn2===null?<></>:
+                              <button className='quesBtn'>{q.btn2}</button>
+                            } 
                             </Col>
                         </Row>
                         )

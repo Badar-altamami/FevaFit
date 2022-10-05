@@ -35,6 +35,16 @@
     position: absolute;
     right: 11%;
     bottom: 0%;
+    top: 135px;
+}
+
+@media(max-width:500px){
+ .home__sub__title{
+ padding-top: 5px;
+    }
+  .sportWatch{
+    display: none;
+  }  
 }
 
 .home__des {

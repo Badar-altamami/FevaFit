@@ -21,8 +21,6 @@ const Header = ({ setContent }) => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link className='nav-link-font ms-4' href="#home">Home</Nav.Link>
-                            <Nav.Link className='nav-link-font ms-4' href="#feature">Features</Nav.Link>
-                            <Nav.Link className='nav-link-font ms-4' href="#programs">Programs</Nav.Link>
                             <Nav.Link className='nav-link-font ms-4' href="#download">Download</Nav.Link>
                         </Nav>
                         <Nav className="ms-auto">
@@ -42,7 +40,7 @@ const Header = ({ setContent }) => {
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav.Link>
-                            <button className='feva-btn'>Get Started</button>
+                             
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
