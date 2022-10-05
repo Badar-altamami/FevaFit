@@ -16,14 +16,14 @@ const Feature = ({ content }) => {
 
     function MyVerticallyCenteredModal(props) {
         let url = "https://player.vimeo.com/video/723315086?h=d23f6817e4&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479&fbclid=IwAR0c10wOk_1tbEbv2vKb8z9hOV5bihV0cbfzllTsv5koHf5PYol-iPBGnqM"
-    
+
         if (content.dir === "rtl") {
             url = "https://vimeo.com/723315522"
             console.log(url)
-             
+
         }
         return (
-    
+
             <Modal style={{ zIndex: "999999" }}
                 {...props}
                 size="md"
@@ -31,10 +31,20 @@ const Feature = ({ content }) => {
                 centered
             >
                 <Modal.Header closeButton>
-                    <Modal.Title
-                        id="contained-modal-title-vcenter">
-                        Start a adventure with <span style={{ color: '#6733B5', fontWeight: 'bold' }}>Feva Fit</span>  !
-                    </Modal.Title>
+                    {
+                        content.dir === "rtl" ?
+                            <Modal.Title
+                                id="contained-modal-title-vcenter">
+                                <span style={{ color: '#6733B5', fontWeight: 'bold' }}>Feva Fit </span> ابدأ رحلة التغيير مع
+                            </Modal.Title> :
+                            <Modal.Title
+                                id="contained-modal-title-vcenter">
+                                Start a adventure with <span style={{ color: '#6733B5', fontWeight: 'bold' }}>Feva Fit</span>  !
+                            </Modal.Title>
+
+                    }
+
+
                 </Modal.Header>
                 <Modal.Body>
                     <ReactPlayer width="100%" controls url={url}>
@@ -90,8 +100,8 @@ const Feature = ({ content }) => {
                         <div className='mx-4 p-5 shadow-sm rounded card3'>
                             <div className='py-4'>
 
-                            
- 
+
+
                                 <img src={cardIcon3} alt="" />
                             </div>
                             <h4 className='cardTitle'>{feature.card3.title}</h4>
