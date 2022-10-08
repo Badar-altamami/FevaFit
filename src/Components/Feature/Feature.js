@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import service from '../../assets/services.png'
 import cardIcon1 from '../../assets/cardIcon1.svg'
@@ -8,20 +8,21 @@ import cardBgImg from '../../assets/cardBgImg.png'
 import './Feature.css'
 import Modal from 'react-bootstrap/Modal';
 import ReactPlayer from 'react-player';
-
-
-
+ 
 const Feature = ({ content }) => {
 
 
     function MyVerticallyCenteredModal(props) {
-        let url = "https://player.vimeo.com/video/723315086?h=d23f6817e4&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479&fbclid=IwAR0c10wOk_1tbEbv2vKb8z9hOV5bihV0cbfzllTsv5koHf5PYol-iPBGnqM"
+        
+            let url = "https://player.vimeo.com/video/723315086?h=d23f6817e4&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479&fbclid=IwAR0c10wOk_1tbEbv2vKb8z9hOV5bihV0cbfzllTsv5koHf5PYol-iPBGnqM"
 
-        if (content.dir === "rtl") {
-            url = "https://vimeo.com/723315522"
-            console.log(url)
+            if (content.dir === "rtl") {
+                url = "https://vimeo.com/723315522"
+                console.log("This is url",url);
+                 
+            }
+            
 
-        }
         return (
 
             <Modal style={{ zIndex: "999999" }}
@@ -47,8 +48,10 @@ const Feature = ({ content }) => {
 
                 </Modal.Header>
                 <Modal.Body>
-                    <ReactPlayer width="100%" controls url={url}>
-                    </ReactPlayer>
+                     
+                            <ReactPlayer width="100%" controls url={url}>
+                            </ReactPlayer>
+                     
                 </Modal.Body>
             </Modal>
         );
@@ -57,7 +60,7 @@ const Feature = ({ content }) => {
 
 
     const { feature } = content
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] =useState(false);
 
     return (
         <>
