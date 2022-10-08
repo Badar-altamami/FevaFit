@@ -35,10 +35,13 @@ const Home = ({ content, setContent }) => {
                 <div className='pt-5'>
                     <img className='img-fluid' src={homebanner} alt="" />
                 </div>
-                <div>
+                <a style={{textDecoration:'none'}} href='#download'>
+                <div className="scroll_arrow">
                     <img className='pt-5' src={scrolldown} alt="" />
                     <p className='scroll'>Scroll Down</p>
                 </div>
+                </a>
+                
             </div>
         </div>
     );

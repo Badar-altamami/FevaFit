@@ -62,12 +62,13 @@ const Survey = ({ content }) => {
                         )
                     }
                 </div>
-                <div className='title2 mt-5'>
+                
+                {/* <div className='title2 mt-5'>
                     <h1 className='survery_title2'>{survey.title2}</h1>
                     <div className='quesImg'>
                         <img className='img-fluid w-100' src={quesiton} alt="" />
                     </div>
-                </div>
+                </div> */}
 
                 <div className='title2 mt-5'>
                     <h1 className='survery_title2'>{survey.title3}</h1>
