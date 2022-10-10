@@ -38,7 +38,7 @@ const Program = ({ content }) => {
                         slideShadows: true,
                     }}
                     pagination={true}
-                    navigation
+                    navigation={true}
                     className="mySwiper"
                 >
                     {

@@ -8,20 +8,20 @@ import cardBgImg from '../../assets/cardBgImg.png'
 import './Feature.css'
 import Modal from 'react-bootstrap/Modal';
 import ReactPlayer from 'react-player';
- 
+
 const Feature = ({ content }) => {
 
 
     function MyVerticallyCenteredModal(props) {
-        
-            let url = "https://player.vimeo.com/video/723315086?h=d23f6817e4&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479&fbclid=IwAR0c10wOk_1tbEbv2vKb8z9hOV5bihV0cbfzllTsv5koHf5PYol-iPBGnqM"
 
-            if (content.dir === "rtl") {
-                url = "https://vimeo.com/723315522"
-                console.log("This is url",url);
-                 
-            }
-            
+        let url = "https://player.vimeo.com/video/723315086?h=d23f6817e4&amp%3Bbadge=0&amp%3Bautopause=0&amp%3Bplayer_id=0&amp%3Bapp_id=58479&fbclid=IwAR0c10wOk_1tbEbv2vKb8z9hOV5bihV0cbfzllTsv5koHf5PYol-iPBGnqM"
+
+        if (content.dir === "rtl") {
+            url = "https://vimeo.com/723315522"
+            console.log("This is url", url);
+
+        }
+
 
         return (
 
@@ -48,10 +48,14 @@ const Feature = ({ content }) => {
 
                 </Modal.Header>
                 <Modal.Body>
-                     
-                            <ReactPlayer width="100%" controls url={url}>
-                            </ReactPlayer>
-                     
+ 
+                    <ReactPlayer width="100%" controls url={url}
+                        onReady={() => console.log("ready")}
+                        onStart={() => console.log('onStart')}
+                    >
+                        
+                    </ReactPlayer>
+
                 </Modal.Body>
             </Modal>
         );
@@ -60,7 +64,7 @@ const Feature = ({ content }) => {
 
 
     const { feature } = content
-    const [modalShow, setModalShow] =useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <>
@@ -73,7 +77,7 @@ const Feature = ({ content }) => {
             <div className='container py-5'>
                 <Row className="serviceCardGroup pt-4 g-4">
                     <div className='col-md-4 col-sm-12 text-center'>
-                        <div className='mx-4 p-5 shadow-sm rounded card1'>
+                        <div className='mx-4 p-5 shadow-sm rounded card1'  data-aos="zoom-in-right" data-aos-duration="3000">
                             <div className='py-4'>
                                 <img src={cardIcon1} alt="" />
                             </div>
@@ -85,8 +89,8 @@ const Feature = ({ content }) => {
                         <div className='cardBgImg'>
                             <img src={cardBgImg} alt="" />
                         </div>
-                        <div className='mx-4 p-5 shadow-sm rounded card2'>
-                            <div className='py-2'>
+                        <div className='mx-4 p-5 shadow-sm rounded card2' data-aos="zoom-in-up" data-aos-duration="3000">
+                            <div className='py-2' >
                                 <img className='img-fluid ' src={cardIcon2} alt="" onClick={() => setModalShow(true)} />
 
 
@@ -100,7 +104,7 @@ const Feature = ({ content }) => {
                         </div>
                     </div>
                     <div className='col-md-4 col-sm-12 text-center'>
-                        <div className='mx-4 p-5 shadow-sm rounded card3'>
+                        <div className='mx-4 p-5 shadow-sm rounded card3'  data-aos="zoom-in-left" data-aos-duration="3000">
                             <div className='py-4'>
 
 
