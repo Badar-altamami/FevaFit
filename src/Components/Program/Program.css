@@ -66,15 +66,18 @@
     background-position: center;
     height: 150px;
     width: 150px;
+    z-index: 999;
 }
 
 .swiper-button-next {
     background-image: url(../../assets/next.svg);
+    z-index: 999;
 }
 
 .swiper-button-prev {
 
     background-image: url(../../assets/prev.svg);
+    z-index: 999;
 }
 
 .slider__title {

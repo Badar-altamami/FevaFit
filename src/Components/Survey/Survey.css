@@ -86,6 +86,15 @@
     transform: translate(-50%, -50%);
 }
 
+.quesImg img{
+    transform: rotate(45deg);
+	animation: rotateAnimation 3s linear infinite;
+}
+@keyframes rotateAnimation {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
 @media only screen and (max-width: 768px) {
 
     .survey__title,

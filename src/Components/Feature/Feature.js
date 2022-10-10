@@ -87,11 +87,14 @@ const Feature = ({ content }) => {
                     </div>
                     <div className='col-md-4 col-sm-12 cardn text-center'>
                         <div className='cardBgImg'>
-                            <img src={cardBgImg} alt="" />
+                            <img src={cardBgImg} alt=""/>
                         </div>
                         <div className='mx-4 p-5 shadow-sm rounded card2' data-aos="zoom-in-up" data-aos-duration="3000">
                             <div className='py-2' >
-                                <img className='img-fluid ' src={cardIcon2} alt="" onClick={() => setModalShow(true)} />
+                            <div className='ripple'>
+                              <img className='img-fluid player' src={cardIcon2} alt="" onClick={() => setModalShow(true)} />
+                                <div className='shadow-img'></div>
+                              </div>
 
 
                                 <MyVerticallyCenteredModal

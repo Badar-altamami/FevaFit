@@ -29,7 +29,12 @@
     position: relative;
     z-index: 999999 !important;
 }
-
+.cardn:hover{
+ color: #f2f2f2;
+ box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+  
+}
+ 
 .cardBgImg {
     position: absolute;
     top: 0%;
@@ -37,6 +42,99 @@
     transform: translate(-50%, -50%);
     z-index: -9999;
 }
+
+.ripple{
+    position: relative;
+    }
+    .shadow-img{
+        margin: auto;
+        animation: shadow 1s infinite  alternate; 
+        width: 80px;
+        height: 80px !important;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        top: 3%;
+        left: 35.3%;
+        z-index: -4;
+    
+    }
+    @keyframes shadow {
+        0% {
+            box-shadow: 0 0 0 .0rem rgba(199, 160, 193, 0.241);
+          }
+          100% {
+            box-shadow: 0 0 0 1.3rem rgba(207, 156, 199, 0.471);
+          }
+    }
+    @media screen and (max-width:1399px){
+        .shadow-img{
+            left: 31%;
+        } 
+    }
+    @media screen and (max-width:1199px){
+        .shadow-img{
+            left: 25%;
+        } 
+    }
+    @media screen and (max-width:992px){
+        .shadow-img{
+            width: 50px;
+            height: 50px !important;
+            top: 10%;
+            left: 16%;
+        } 
+    }
+    @media screen and (max-width:992px){
+        .shadow-img{
+            width: 70px;
+            height: 70px !important;
+            top: 10%;
+            left: 40.5%;
+        } 
+    }
+    @media screen and (max-width:575px){
+        .shadow-img{
+            top: 10%;
+            left: 41.3%;
+        } 
+    }
+    @media screen and (max-width:500px){
+        .shadow-img{
+            top: 10%;
+            left: 39%;
+        } 
+    }
+    @media screen and (max-width:471px){
+        .shadow-img{
+            top: 10%;
+            left: 38%;
+        } 
+    }
+    @media screen and (max-width:450px){
+        .shadow-img{
+            top: 10%;
+            left: 36.8%;
+        } 
+    }
+    @media screen and (max-width:400px){
+        .shadow-img{
+            top: 10%;
+            left: 35.5%;
+        } 
+    }
+    @media screen and (max-width:399px){
+        .shadow-img{
+            top: 10%;
+            left: 34%;
+        } 
+    }
+    @media screen and (max-width:377px){
+        .shadow-img{
+            top: 10%;
+            left: 32%;
+        } 
+    }
 
 .card1,
 .card2,
