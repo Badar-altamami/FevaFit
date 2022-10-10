@@ -29,10 +29,10 @@
     position: relative;
     z-index: 999999 !important;
 }
-.cardn:hover{
+.cardHover:hover{
  color: #f2f2f2;
  box-shadow: 20px 50px 100px rgba(52, 50, 50, 0.5);
-  
+ 
 }
  
 .cardBgImg {

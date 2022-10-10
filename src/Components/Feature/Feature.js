@@ -96,7 +96,7 @@ const Feature = ({ content }) => {
             </div>
             <div className='container py-5'>
                 <Row className="serviceCardGroup pt-4 g-4">
-                    <div className='col-md-4 col-sm-12 text-center'>
+                    <div className='col-md-4 col-sm-12 text-center cardHover'>
                         <div className='mx-4 p-5 shadow-sm rounded card1' data-aos="zoom-in-right" data-aos-duration="3000">
                             <div className='py-4'>
                                 <img src={cardIcon1} alt="" />
@@ -105,7 +105,7 @@ const Feature = ({ content }) => {
                             <p className='cardDes'>{feature.card1.des}</p>
                         </div>
                     </div>
-                    <div className='col-md-4 col-sm-12 cardn text-center'>
+                    <div className='col-md-4 col-sm-12 cardn text-center cardHover'>
                         <div className='cardBgImg'>
                             <img src={cardBgImg} alt="" />
                         </div>
@@ -126,7 +126,7 @@ const Feature = ({ content }) => {
                             <p className='cardDes'>{feature.card2.des}</p>
                         </div>
                     </div>
-                    <div className='col-md-4 col-sm-12 text-center'>
+                    <div className='col-md-4 col-sm-12 text-center cardHover'>
                         <div className='mx-4 p-5 shadow-sm rounded card3' data-aos="zoom-in-left" data-aos-duration="3000">
                             <div className='py-4'>
 
