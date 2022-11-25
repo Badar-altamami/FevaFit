@@ -38,6 +38,30 @@
     top: 135px;
 }
 
+
+/* whatsapp live chat button */
+.icon-bar {
+    position: fixed;
+    top: 90%;
+    left:93%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+    
+  }
+  .icon-bar button {
+     border: none;
+     padding: 0%;
+  }
+  .whats_app{
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(9, 176, 9);
+    padding: .7rem;
+    border-radius: 50%;
+  }
+
 @media(max-width:500px) {
     .home__sub__title {
         padding-top: 5px;

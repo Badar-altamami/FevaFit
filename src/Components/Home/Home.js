@@ -11,8 +11,14 @@ const Home = ({ content, setContent }) => {
     const { home } = content
     return (
         <div id='home'>
-            <Header setContent={setContent} />
+            <Header setContent={setContent}/>
             <div className='container'>
+                {/* whatsapp live chat  */}
+                <div className='icon-bar'>
+                    <button>
+                    <i class="fa-brands fa-whatsapp whats_app "></i>
+                    </button>
+                </div>
                 <div className="pt-5 home_wrapper">
                     <h5 dir={content.dir} className='home__sub__title'>{home.SubTitle1} <span>{content.home.SubTitle2}</span></h5>
                     <div className='home__title__container'>
