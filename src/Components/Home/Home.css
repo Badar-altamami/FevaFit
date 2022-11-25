@@ -70,6 +70,10 @@
     .sportWatch {
         display: none;
     }
+    .icon-bar{
+        left: 80%;
+        
+    }
 }
 
 .home__des {
@@ -79,6 +83,7 @@
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
+
 
 .abtn__group {
     display: flex;

@@ -15,6 +15,7 @@
     "react-ga": "^3.3.1",
     "react-player": "^2.11.0",
     "react-scripts": "5.0.1",
+    "react-whatsapp": "^0.3.0",
     "swiper": "^8.4.2",
     "web-vitals": "^2.1.4"
   },

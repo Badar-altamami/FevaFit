@@ -6,17 +6,22 @@ import scrolldown from '../../assets/scrollDown.svg'
 import Nav from 'react-bootstrap/Nav';
 import './Home.css'
 import Header from '../Header/Header';
+import ReactWhatsapp from 'react-whatsapp';
+
 
 const Home = ({ content, setContent }) => {
     const { home } = content
     return (
         <div id='home'>
-            <Header setContent={setContent}/>
+            <Header setContent={setContent} />
             <div className='container'>
-                {/* whatsapp live chat  */}
+                {/* whatsApp live chat  */}
                 <div className='icon-bar'>
                     <button>
-                    <i class="fa-brands fa-whatsapp whats_app "></i>
+                        <ReactWhatsapp number="+88 01829456221" message="Happy to connect with Feva Fit">
+                        <i class="fa-brands fa-whatsapp whats_app ">                       
+                        </i>
+                        </ReactWhatsapp>
                     </button>
                 </div>
                 <div className="pt-5 home_wrapper">
@@ -32,22 +37,21 @@ const Home = ({ content, setContent }) => {
                     </div>
                     <p dir={content.dir} className='home__des'>{home.des}</p>
                     <div className='w-50 h-auto mx-auto abtn__group pt-4'>
-                       <Nav.Link href="#download">
-                       <button className='abtn1'>{home.ActionBtn1}</button>
-                       </Nav.Link>  
-                        
+                        <Nav.Link href="#download">
+                            <button className='abtn1'>{home.ActionBtn1}</button>
+                        </Nav.Link>
+
                     </div>
                 </div>
                 <div className='pt-5'>
                     <img className='img-fluid' src={homebanner} alt="" />
                 </div>
-                <a style={{textDecoration:'none'}} href='#download'>
-                <div className="scroll_arrow">
-                    <img className='pt-5' src={scrolldown} alt="" />
-                    <p className='scroll'>Scroll Down</p>
-                </div>
+                <a style={{ textDecoration: 'none' }} href='#download'>
+                    <div className="scroll_arrow">
+                        <img className='pt-5' src={scrolldown} alt="" />
+                        <p className='scroll'>Scroll Down</p>
+                    </div>
                 </a>
-                
             </div>
         </div>
     );
