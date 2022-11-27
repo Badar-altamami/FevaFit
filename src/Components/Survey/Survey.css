@@ -48,6 +48,15 @@
     border-radius: 50px;
 }
 
+.quesBtn:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border: 1px solid hotpink;
+    transition: all .5s;
+    color: hotpink;
+    font-weight: 900;
+
+}
+
 .ques__number {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
@@ -86,13 +95,19 @@
     transform: translate(-50%, -50%);
 }
 
-.quesImg img{
+.quesImg img {
     transform: rotate(45deg);
-	animation: rotateAnimation 3s linear infinite;
+    animation: rotateAnimation 3s linear infinite;
 }
+
 @keyframes rotateAnimation {
-	from {transform: rotate(0deg);}
-	to {transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media only screen and (max-width: 768px) {
