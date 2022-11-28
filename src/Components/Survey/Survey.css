@@ -49,11 +49,11 @@
 }
 
 .quesBtn:hover {
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-    border: 1px solid hotpink;
+    box-shadow: #A020F0 5px 5px, #af44f1 10px 10px, #bb6eeb 15px 15px, #ad70d3 7px 7px, #b187cb 7px 7px;
     transition: all .5s;
-    color: hotpink;
     font-weight: 900;
+    border: 1px solid #012880;
+    color: #6733B5;
 
 }
 
