@@ -35,7 +35,7 @@ const Download = ({ content }) => {
                         </div>
                         <div className='mb-5'>
                             <div className='m_t-3'>
-                                <img className='w-100 img-fluid ms-3' src={qrcode} alt="" />
+                                {/* <img className='w-100 img-fluid ms-3' src={qrcode} alt="" /> */}
                             </div>
                         </div>
                     </div>

@@ -19,8 +19,9 @@ const Home = ({ content, setContent }) => {
                 <div className='icon-bar'>
                     <button>
                         <ReactWhatsapp number="+971 582115238" message="Happy to connect with Feva Fit">
-                            <i class="fa-brands fa-whatsapp whats_app ">
+                            <i class="fa-brands fa-whatsapp whats_app">
                             </i>
+                            
                         </ReactWhatsapp>
                     </button>
                 </div>
