@@ -37,7 +37,7 @@ const Home = ({ content, setContent }) => {
                     </div>
                     <p dir={content.dir} className='home__des'>{home.des}</p>
                     <div className='w-50 h-auto mx-auto abtn__group pt-4'>
-                        <Nav.Link href="#download">
+                        <Nav.Link target="_blank" href="https://cloud.protopie.io/p/447673da92">
                             <button className='abtn1'>{home.ActionBtn1}</button>
                         </Nav.Link>
 
