@@ -35,7 +35,7 @@ const Survey = ({ content }) => {
                 <div className='py-5 my-3'>
                     <img className='w-100 img-fluid' src={line} alt="" />
                 </div>
-                <div className="mx-5 pb-5">
+                {/* <div className="mx-5 pb-5">
                     {
                         surveyQue.map(q => <Row
                             key={q.num}
@@ -61,7 +61,7 @@ const Survey = ({ content }) => {
                         </Row>
                         )
                     }
-                </div>
+                </div> */}
                 
                 {/* <div className='title2 mt-5'>
                     <h1 className='survery_title2'>{survey.title2}</h1>

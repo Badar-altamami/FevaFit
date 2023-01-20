@@ -18,7 +18,7 @@ const Home = ({ content, setContent }) => {
                 {/* whatsApp live chat  */}
                 <div className='icon-bar'>
                     <button>
-                        <ReactWhatsapp number="+88 01829456221" message="Happy to connect with Feva Fit">
+                        <ReactWhatsapp number="+971 582115238" message="Happy to connect with Feva Fit">
                             <i class="fa-brands fa-whatsapp whats_app ">
                             </i>
                         </ReactWhatsapp>
@@ -46,7 +46,7 @@ const Home = ({ content, setContent }) => {
                 <div className='pt-5'>
                     <img className='img-fluid' src={homebanner} alt="" />
                 </div>
-                <a style={{ textDecoration: 'none' }} href='#download'>
+                <a style={{textDecoration: 'none' }} href='#download'>
                     <div className="scroll_arrow">
                         <img className='pt-5' src={scrolldown} alt="" />
                         <p className='scroll'>Scroll Down</p>
