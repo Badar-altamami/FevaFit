@@ -5,15 +5,11 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
-
 import './Program.css'
-
 
 const Program = ({ content }) => {
     const { programs } = content
-
     return (
         <>
             <div id='programs'>
@@ -46,8 +42,8 @@ const Program = ({ content }) => {
                             key={s.img}
                         >
                             <div className='slider__container rounded'>
-                                <img className='slider__img rounded w-100 img-fluid' src={s.img} alt="" />
-                                <div className=''>
+                                <img className='slider__img rounded w-100' src={s.img} alt="" />
+                                <div className='content_div'>
                                     <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4>
                                     <p dir={content.dir} className='_content slider__des'>daily workout videos</p>
                                 </div>

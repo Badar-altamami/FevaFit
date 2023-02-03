@@ -1,6 +1,7 @@
-import cardImg1 from '../assets/card1Img.png'
-import cardImg2 from '../assets/card2Img.png'
-import cardImg3 from '../assets/card3Img.png'
+import cardImg1 from '../assets/card1.png'
+import cardImg2 from '../assets/card2.png'
+import cardImg3 from '../assets/card3.png'
+import cardImg4 from '../assets/card4.png'
 
 const UseContent = () => {
     let eng = {
@@ -55,7 +56,7 @@ const UseContent = () => {
             },
         },
         programs: {
-            title: 'OUR FLAGSHIP PROGRAMS',
+            title: 'OUR FLAGSHIP WORKOUTS',
             slider: [
                 {
                     title: '3 Weeks Program',
@@ -71,6 +72,11 @@ const UseContent = () => {
                     title: '12 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg3,
+                },
+                {
+                    title: '12 Weeks Program',
+                    des: '30 daily workout videos',
+                    img: cardImg4,
                 }
             ],
             popovr: 'Feva Fit is a high intensity interval training workout that will transform your physique in no time. Our video workouts are short, intensive and effective.'
@@ -134,7 +140,7 @@ const UseContent = () => {
             },
         },
         programs: {
-            title: 'برامجنا الرئيسية',
+            title: 'تماريننا الرئيسية',
             slider: [
                 {
                     title: '3 Weeks Program',
@@ -142,7 +148,7 @@ const UseContent = () => {
                     img: cardImg1,
                 },
                 {
-                    title: '3 أسابيع برنامج التحول',
+                    title: '3 Weeks Transformation Program',
                     des: '30 daily workout videos',
                     img: cardImg2,
                 },
@@ -150,6 +156,11 @@ const UseContent = () => {
                     title: '12 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg3,
+                },
+                {
+                    title: '12 Weeks Program',
+                    des: '30 daily workout videos',
+                    img: cardImg4,
                 }
             ],
             popovr: 'اخسر الوزن الزائد وابني جسمًا قويًا وصحيًا في أقل من 30 دقيقة يوميًا. تم تصميم هذه التدريبات القصيرة والفعالة على أساس أحدث تقنيات التدريب البدني، وذلك لتحسين اللياقة البدنية الخاصة بك في اسرع وقت!'
