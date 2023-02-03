@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import './Program.css'
 
+
 const Program = ({ content }) => {
     const { programs } = content
     return (
@@ -47,11 +48,13 @@ const Program = ({ content }) => {
                                     <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4>
                                     <p dir={content.dir} className='_content slider__des'>daily workout videos</p>
                                 </div>
+                                
                             </div>
                         </SwiperSlide>
 
                         )
                     }
+                     
                     <div className="popover__content">
                         <p dir={content.dir} className="popover__message p-2">{programs.popovr}</p>
                     </div>

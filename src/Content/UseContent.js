@@ -74,7 +74,7 @@ const UseContent = () => {
                     img: cardImg3,
                 },
                 {
-                    title: '12 Weeks Program',
+                    title: '15 Weeks Program',
                     des: '30 daily workout videos',
                     img: cardImg4,
                 }
