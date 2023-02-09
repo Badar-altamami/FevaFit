@@ -129,9 +129,6 @@ const Feature = ({ content }) => {
                     <div className='col-md-4 col-sm-12 text-center cardHover'>
                         <div className='mx-4 p-5 shadow-sm rounded card3' data-aos="zoom-in-left" data-aos-duration="3000">
                             <div className='py-4'>
-
-
-
                                 <img src={cardIcon3} alt="" />
                             </div>
                             <h4 className='cardTitle'>{feature.card3.title}</h4>

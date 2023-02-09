@@ -51,8 +51,8 @@ const UseContent = () => {
                 des: 'Join the transformation. With powerful & short hypnosis journeys that will help you achieve real results and stay consistent with your workouts. Give us 10 minutes per day for 21 days, and see how easy it can be to get in shape. '
             },
             card3: {
-                title: 'Inspire Journal',
-                des: 'Journal, share and inspire others on your weight loss journey. Keep a record of your daily objectives and prepare to reach your goals.'
+                title: 'Accountability Partner!',
+                des: 'Achieve your fitness goals with a supportive partner. Our unique Accountability Partner feature matches you with someone on the same journey, providing motivation and accountability for success.'
             },
         },
         programs: {
@@ -135,8 +135,10 @@ const UseContent = () => {
                 des: 'انضم إلى التحول. من خلال رحلات التنويم المغناطيسي القوية والقصيرة التي ستساعدك على تحقيق نتائج حقيقية والبقاء متسقًا مع التدريبات الخاصة بك. امنحنا 10 دقائق يوميًا لمدة 21 يومًا ، وشاهد مدى سهولة الحصول على الجسم الذي تتمناه.'
             },
             card3: {
-                title: 'مدونة الإلهام',
-                des: 'سجل ، شارك وألهم الآخرين في رحلة إنقاص الوزن. احتفظ بسجل لأهدافك اليومية واستعد للوصول إلى أهدافك.'
+                title: 'شريك المساءلة',
+                des:"حقق أهداف لياقتك مع شريك داعم. تتطابق ميزة شريك المساءلة الفريدة الخاصة بنا مع شخص ما في نفس الرحلة ، مما يوفر الدافع والمساءلة للنجاح"
+                
+                      
             },
         },
         programs: {
