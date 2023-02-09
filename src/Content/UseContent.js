@@ -29,13 +29,13 @@ const UseContent = () => {
                     btn1: 'Yes',
                     btn2: 'No',
                 },
-                {
-                    num: '03',
-                    que: 'What do you think prevented you from achieving your fullest fitness potential and goal?',
-                    btn1: null,
-                    btn2: null,
+                // {
+                //     num: '03',
+                //     que: 'What do you think prevented you from achieving your fullest fitness potential and goal?',
+                //     btn1: null,
+                //     btn2: null,
                     
-                }
+                // }
             ],
             title2: 'What do you think prevented you from achieving your fullest fitness potential and goal',
             title3: 'Maybe you’ve tried to get fit in the past, but it just didn’t work out due to lack of consistency or motivation.',
@@ -113,13 +113,13 @@ const UseContent = () => {
                     btn1: 'نعم',
                     btn2: 'لا',
                 },
-                {
-                    num: '03',
-                    que: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
-                    btn1: null,
-                    btn2: null,
+                // {
+                //     num: '03',
+                //     que: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
+                //     btn1: null,
+                //     btn2: null,
                     
-                }
+                // }
             ],
             title2: 'برأيك ، ما منعك من تحقيق أهدافك في مجال الرياضية؟',
             title3: 'ربما حاولت أن تصبح رياضياً في الماض، لكن ذلك لم ينجح بسبب الافتقار إلى الدافع المطلوب',
