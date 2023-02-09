@@ -25,9 +25,9 @@ const Program = ({ content }) => {
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
-                    slidesPerView={"auto"}
+                    slidesPerView={3}
                     initialSlide="1"
-                    coverflowEffect={{
+                    coverflowEffect={{                       
                         rotate: 0,
                         stretch: 0,
                         depth: 100,
@@ -37,6 +37,7 @@ const Program = ({ content }) => {
                     pagination={{ clickable: true }}
                     navigation
                     className="mySwiper"
+                    
                 >
                     {
                         programs.slider.map(s => <SwiperSlide
@@ -45,8 +46,8 @@ const Program = ({ content }) => {
                             <div className='slider__container rounded'>
                                 <img className='slider__img rounded w-100' src={s.img} alt="" />
                                 <div className='content_div'>
-                                    <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4>
-                                    <p dir={content.dir} className='_content slider__des'>daily workout videos</p>
+                                    {/* <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4> */}
+                                    {/* <p dir={content.dir} className='_content slider__des'>daily workout videos</p> */}
                                 </div>
                                 
                             </div>
