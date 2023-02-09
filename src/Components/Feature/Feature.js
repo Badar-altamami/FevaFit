@@ -3,7 +3,7 @@ import { Row } from 'react-bootstrap';
 import service from '../../assets/services.png'
 import cardIcon1 from '../../assets/cardIcon1.svg'
 import cardIcon2 from '../../assets/cardIcon2.png'
-import cardIcon3 from '../../assets/cardIcon3.png'
+import cardIcon3 from '../../assets/accountibility.svg'
 import cardBgImg from '../../assets/cardBgImg.png'
 import './Feature.css'
 import Modal from 'react-bootstrap/Modal';
@@ -129,7 +129,7 @@ const Feature = ({ content }) => {
                     <div className='col-md-4 col-sm-12 text-center cardHover'>
                         <div className='mx-4 p-5 shadow-sm rounded card3' data-aos="zoom-in-left" data-aos-duration="3000">
                             <div className='py-4'>
-                                <img src={cardIcon3} alt="" />
+                                <img src={cardIcon3} alt="" className="img-fluid w-50"/>
                             </div>
                             <h4 className='cardTitle'>{feature.card3.title}</h4>
                             <p className='cardDes'>{feature.card3.des}</p>
