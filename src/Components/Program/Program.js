@@ -21,11 +21,24 @@ const Program = ({ content }) => {
             </div>
             <div className='container'>
                 <Swiper
+                 
+                breakpoints={{
+                    0:{slidesPerView:1,
+                    spaceBetween:10}
+                ,
+                    480:{slidesPerView:2,
+                    spaceBetween:15}
+                ,
+                    768:{slidesPerView:3,
+                    spaceBetween:15},
+                     
+                }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={3}
+                    
                     initialSlide="1"
                     coverflowEffect={{                       
                         rotate: 0,
@@ -44,7 +57,7 @@ const Program = ({ content }) => {
                             key={s.img}
                         >
                             <div className='slider__container rounded'>
-                                <img className='slider__img rounded w-100' src={s.img} alt="" />
+                                <img className='slider__img rounded ' src={s.img} alt="" />
                                 <div className='content_div'>
                                     {/* <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4> */}
                                     {/* <p dir={content.dir} className='_content slider__des'>daily workout videos</p> */}
