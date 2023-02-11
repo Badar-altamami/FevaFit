@@ -38,7 +38,12 @@ position: relative;
     width: 100%;
 }
 
- 
+ .style_link{
+    padding: 0!important;
+    margin: 0!important;
+    display: block;
+    color: #DADADA;
+ }
  
 
 .slider__img {

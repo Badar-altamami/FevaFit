@@ -6,8 +6,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import './Program.css'
-
+import './Program.css';
+import ReactWhatsapp from 'react-whatsapp';
 
 const Program = ({ content }) => {
     const { programs } = content
@@ -30,7 +30,7 @@ const Program = ({ content }) => {
                     spaceBetween:15}
                 ,
                     768:{slidesPerView:3,
-                    spaceBetween:15},
+                    spaceBetween:10},
                      
                 }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
@@ -56,14 +56,18 @@ const Program = ({ content }) => {
                         programs.slider.map(s => <SwiperSlide
                             key={s.img}
                         >
+                            <ReactWhatsapp number="+971 582115238" message="Happy to connect with Feva Fit" className="style_link">
                             <div className='slider__container rounded'>
+                                
                                 <img className='slider__img rounded ' src={s.img} alt="" />
+                               
                                 <div className='content_div'>
                                     {/* <h4 dir={content.dir} className='_content slider__title'>{s.title}</h4> */}
                                     {/* <p dir={content.dir} className='_content slider__des'>daily workout videos</p> */}
                                 </div>
                                 
                             </div>
+                             </ReactWhatsapp>
                         </SwiperSlide>
 
                         )
